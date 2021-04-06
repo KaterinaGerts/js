@@ -1,4 +1,4 @@
-// console.log(123);
+console.log(123);
 
 // модуль 2, задача 14
 
@@ -15,20 +15,38 @@
 // console.log(lastThreeEls);
 
 
-// модуль 2, задачв 16
+// модуль 2, задача 18
+// Напиши функцию calculateTotal(number), 
+// которая принимает целое число(параметр number) 
+//и возвращает сумму всех целых чисел от единицы 
+// и до этого числа.Например, если number равно 3, 
+// то сумма это 1 + 2 + 3, то есть 6.
 
-//  возвращает ['Манго', 'Поли', 'Аякс']
+// const calculateTotal = 24;  
+//   let total = 0;
+//   for (let i = 0; i <= calculateTotal; i += 1) {
+//     total += i;
+//   }
+//   console.log(total);
 
-function makeArray(firstArray, secondArray, maxLength) {
-  
-  firstArray = firstArray.slice(' ');
-  secondArray = secondArray.slice(' ');    
- const newArray = firstArray.concat(secondArray);
-    
-  if (newArray > maxLength) {
-    console.log(maxLength); 
-  }
-  console.log(newArray); 
-}
+//  calculateTotal = 1; //1.
+//calculateTotal = 3; //6.
+//  calculateTotal = 7; // 28.
+//  calculateTotal = 18; //171.
+//  calculateTotal = 24; //300.
 
-makeArray = (['Манго', 'Поли'], ['Аякс', 'Челси'], 3);
+
+// МОДУЛЬ 2, ЗАДАЧА №20
+
+// const calculateTotalPrice = [12, 85, 37, 4];
+// let total = 0;
+
+// for (let i = 0; i < calculateTotalPrice.length; i += 1) {
+//   console.log(calculateTotalPrice[i]);
+//   total += calculateTotalPrice[i];
+// }
+// console.log(total);
+
+
+
+
