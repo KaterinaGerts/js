@@ -4,4 +4,5 @@
 // import './js/toBoolean.js';
 // import './js/funktion.js';
 // import './js/tasks-module2.js';
-import './js/tasks-module3.js';
+//import './js/tasks-module3.js';
+import './js/callback.js';
