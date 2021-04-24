@@ -473,3 +473,84 @@
 //     // Пиши код выше этой строки
 //   },
 // };
+
+//МОДУЛЬ 3, ЗАДАЧА №39
+
+// const atTheOldToad = {
+//   potions: ["Зелье скорости", "Дыхание дракона", "Каменная кожа"],
+//   removePotion(potionName) {
+//     // Пиши код ниже этой строки
+//     for(let i = 0; i<=this.potions.length; i+=1) {
+//       if (this.potions[i] === potionName) {
+//       this.potions.splice(i, 1);
+        
+//       }
+//     }  
+//    },
+// };
+
+  //atTheOldToad.removePotion('Дыхание дракона') // ['Зелье скорости', 'Каменная кожа'].
+  //atTheOldToad.removePotion('Зелье скорости') // ['Каменная кожа'].
+
+ 
+//МОДУЛЬ 3, ЗАДАЧА №40
+
+//   const atTheOldToad = {
+//   potions: ['Зелье скорости', 'Дыхание дракона', 'Каменная кожа'],
+//   updatePotionName(oldName, newName) {
+//     // Пиши код ниже этой строки
+    
+//     for (let i = 0; i < this.potions.length; i += 1) {
+//       if (oldName === this.potions[i]) {
+//         this.potions[i] = newName;        
+//       }
+//     }
+//     console.log([newName]);
+//     return newName;
+//     // Пиши код выше этой строки
+//   },
+// };
+
+// atTheOldToad.updatePotionName('Дыхание дракона', 'Полиморф') // ['Зелье скорости', 'Полиморф', 'Каменная кожа'].
+// atTheOldToad.updatePotionName('Каменная кожа', 'Невидимка') // ['Зелье скорости', 'Полиморф', 'Невидимка'].
+
+
+//МОДУЛЬ 3, ЗАДАЧА №41
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Зелье скорости', price: 460 },
+//     { name: 'Дыхание дракона', price: 780 },
+//     { name: 'Каменная кожа', price: 520 },
+//   ],
+//   // Пиши код ниже этой строки
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(potionName) {
+//     if (this.potions.includes(potionName)) {
+//       return `Зелье ${potionName} уже есть в инвентаре!`;
+//     }
+
+//     this.potions.push(potionName);
+//   },
+//   removePotion(potionName) {
+//     for (let i = 0; i < this.potions.length; i += 1) { 
+//       const item = this.potions[i];
+//     if (item.name === potionName) {      
+//       this.potions.splice(i, 1);      
+//     }      
+//    }
+//     return `Зелья ${potionName} нет в инвентаре!`;
+//  },
+//   updatePotionName(oldName, newName) {
+    
+//     for (let i = 0; i < this.potions.length; i += 1) {
+//       if (oldName === this.potions[i].name) {
+//       this.potions[i].name =  newName
+//       }
+//     }       
+//       return `Зелья ${oldName} нет в инвентаре!`;    
+//   },
+//   // Пиши код выше этой строки
+// };
