@@ -6,6 +6,6 @@
 // import './js/tasks-module2.js';
 //import './js/tasks-module3.js';
 //import './js/callback.js';
-//import './js/tasks-module4.js'
+import './js/tasks-module4.js'
 //import './js/calculator.js';
-import './js/junior.js'
+// import './js/junior.js'
