@@ -212,19 +212,7 @@
 //   { email: 'jacob@mail.com', dish: 'Taco' },
 // ];
 
-// // Пиши код ниже этой строки
-// function composeMessage(position) {
-//   //console.log(`Готовим ${this.dish} для ${this.email}.Ваш заказ ${position} -й в очереди.`);
-//   return `Готовим ${this.dish} для ${this.email}. Ваш заказ ${position}-й в очереди.`;
-//  }
-
-// const messages = [];
-
-// for (let i = 0; i < orders.length; i += 1) {
-//   let message = composeMessage.call(orders[i], i + 1);
-//   messages.push(message);
-//   console.log(message);
-// }
+// c
 
 //МОДУЛЬ 4, ЗАДАЧА №8
 
