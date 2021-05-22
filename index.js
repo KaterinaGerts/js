@@ -11,4 +11,5 @@
 // import './js/junior.js'
 //import './js/tasks-module5.js'
 //import './js/tasks-module6.js';
-import './js/tasks-module7.js'
+//import './js/tasks-module7.js';
+import './js/task-8.js'
